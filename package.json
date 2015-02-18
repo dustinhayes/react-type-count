@@ -1,0 +1,28 @@
+{
+  "name": "react-type-count",
+  "version": "0.0.1",
+  "description": "Input restriction for textarea elements.",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel src/index.js -o dist/index.js",
+    "build": "browserify example/src/index.js -t babelify -o example/dist/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustinhayes/react-type-count.git"
+  },
+  "author": "dustinhayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dustinhayes/react-type-count/issues"
+  },
+  "homepage": "https://github.com/dustinhayes/react-type-count",
+  "dependencies": {
+    "react": "^0.13.0-beta.1"
+  },
+  "devDependencies": {
+    "babel": "^4.3.0",
+    "babelify": "^5.0.3",
+    "browserify": "^8.1.3"
+  }
+}
